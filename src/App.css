@@ -1,0 +1,15 @@
+.container {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.card-group {
+  margin: 20px 0;
+}

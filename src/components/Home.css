@@ -1,0 +1,213 @@
+.hero-section {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  height: 80vh;
+  background: url('D:\jc_salgados\salgados-site\site_jcsalgados\public\images\delicious-fried-food-croquettes-arrangement.jpg') no-repeat center center/cover;
+  background-size: cover;
+  filter: brightness(0.8) contrast(1.2); /* Ajuste de brilho e contraste mais próximos do original */
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 240, 252, 0.3); /* Reduz a opacidade do overlay para manter a imagem mais visível */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4b4a4a;
+  z-index: 1;
+}
+
+.hero-container {
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem; /* Aumenta o tamanho do título para mais destaque */
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff; /* Branco puro para maior contraste */
+  /*text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto para melhor legibilidade */
+}
+
+.hero-subtitle {
+  font-size: 1.8rem; /* Aumenta o tamanho do subtítulo */
+  margin-bottom: 40px;
+  font-weight: 300;
+  color: #ffffff; 
+  /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Sombra no subtítulo também para melhorar a legibilidade */
+}
+
+/* Estilo comum para ambos os botões */
+.hero-button {
+  border: none !important;
+  padding: 15px 30px;
+  font-size: 1.25rem; /* Tamanho da fonte do botão */
+  font-weight: bold;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 10px; /* Adiciona espaço horizontal entre os botões */
+}
+
+/* Botão principal */
+.hero-button-primary {
+  background-color: #ff0800 !important; /* Cor de fundo para o botão principal */
+  color: #ffffff !important; /* Texto branco para contraste */
+}
+
+.hero-button-primary:hover {
+  background-color: #b30000 !important; /* Tom mais escuro no hover */
+}
+
+/* Botão secundário */
+.hero-button-secondary {
+  background-color: #ffffff !important; /* Cor de fundo para o botão secundário */
+  color: #4b0082 !important; /* Texto roxo escuro */
+}
+
+.hero-button-secondary:hover {
+  background-color: #c6c1c1 !important; /* Tom mais claro no hover */
+}
+
+.hero-button:focus, .hero-button:active {
+  box-shadow: none;
+}
+
+  /* About Us */
+  .about-us {
+    padding: 60px 0;
+  }
+  
+  .about-us img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1.125rem;
+  }
+  
+  .about-us .btn-outline-primary {
+    border-color: #FFD54F;
+    color: #FFD54F;
+  }
+  
+  .about-us .btn-outline-primary:hover {
+    background-color: #FFD54F;
+    color: #333;
+  }
+  
+  /* Featured Products */
+  .featured-products {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+  }
+  
+  .featured-products h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .featured-products .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .featured-products .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .featured-products .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Testimonials */
+  .testimonials {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    padding: 20px;
+    border-left: 5px solid #FFD54F;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    font-size: 1.125rem;
+  }
+  
+  .testimonial h5 {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Call to Action */
+  .call-to-action {
+    background-color: #FFD54F;
+    color: #333;
+    padding: 60px 0;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action p {
+    font-size: 1.125rem;
+  }
+  
+  .call-to-action .btn-warning {
+    background-color: #FFCA28;
+    border: none;
+  }
+  
+  .call-to-action .btn-warning:hover {
+    background-color: #FFB300;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer .social-media {
+    margin-top: 10px;
+  }
+  
+  .footer .social-media a {
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+  .footer .social-media a:hover {
+    color: #FFD54F;
+  }
+  
