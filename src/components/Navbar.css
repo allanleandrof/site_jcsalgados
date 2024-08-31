@@ -1,0 +1,26 @@
+.custom-navbar {
+    font-family: "Nunito", sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .nav-item-custom {
+    color: #333333 !important;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+  }
+  
+  .nav-item-custom:hover {
+    color: #ff0800 !important; /* Destaque vermelho ao passar o mouse */
+    border-bottom: 2px solid #ff0800;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    color: #333333;
+  }
+  
